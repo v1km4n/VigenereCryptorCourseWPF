@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>vigenere_cryptor_wpf.App</StartupObject>
+    <ApplicationIcon>data-encryption.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="16427203489870.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="data-encryption.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net6.0-windows\" />
+  </ItemGroup>
+
+</Project>
